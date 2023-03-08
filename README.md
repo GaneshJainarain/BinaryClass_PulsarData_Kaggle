@@ -1,5 +1,5 @@
 ## Playground Series - Season 3, Episode 10
-### Binary Classification with a Pulsar Dataset
+### `Binary Classification with a Pulsar Dataset`
 
 The dataset for this competition (both train and test) was generated from a deep learning model trained on the Pulsar Classification. 
 
@@ -10,7 +10,7 @@ The dataset for this competition (both train and test) was generated from a deep
 (whether the observation is a pulsar)
 - sample_submission.csv - a sample submission file in the correct format
 
-### Data Science Framework & Process
+### `Data Science Framework & Process`
 
 - Define the Problem
 - Gather the Data
@@ -83,4 +83,35 @@ SciPy version: 1.10.1
 IPython version: 8.11.0
 scikit-learn version: 1.2.1
 -------------------------
+```
+
+#### `Load Data Modelling Libraries`
+We will use the popular scikit-learn library to develop our `machine learning algorithms`. In sklearn, algorithms are called Estimators and implemented in their own classes. For `data visualization`, we will use the matplotlib and seaborn library. Below are common classes to load.
+
+```python
+
+#Common Model Algorithms
+from sklearn import svm, tree, linear_model, neighbors, naive_bayes, ensemble, discriminant_analysis, gaussian_process
+from xgboost import XGBClassifier
+
+#Common Model Helpers
+from sklearn.preprocessing import OneHotEncoder, LabelEncoder
+from sklearn import feature_selection
+from sklearn import model_selection
+from sklearn import metrics
+
+#Visualization
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import matplotlib.pylab as pylab
+import seaborn as sns
+from pandas.tools.plotting import scatter_matrix
+
+#Configure Visualization Defaults
+#%matplotlib inline = show plots in Jupyter Notebook browser
+%matplotlib inline
+mpl.style.use('ggplot')
+sns.set_style('white')
+pylab.rcParams['figure.figsize'] = 12,8
+
 ```
