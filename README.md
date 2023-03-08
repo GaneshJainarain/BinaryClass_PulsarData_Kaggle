@@ -9,3 +9,13 @@ The dataset for this competition (both train and test) was generated from a deep
 - test.csv - the test dataset; your objective is to predict the probability of Class
 (whether the observation is a pulsar)
 - sample_submission.csv - a sample submission file in the correct format
+
+### Data Science Framework & Process
+
+- Define the Problem
+- Gather the Data
+- Prepare Data for Consumption
+- Perform Exploratory Analysis
+- Model Data
+- Validate and Implement Data Model
+- Optimize and Strategize
