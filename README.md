@@ -72,3 +72,15 @@ warnings.filterwarnings('ignore')
 print('-'*25)
 
 ```
+
+```
+Python version: 3.8.3 (v3.8.3:6f8c8320e9, May 13 2020, 16:29:34) 
+[Clang 6.0 (clang-600.0.57)]
+pandas version: 1.5.3
+matplotlib version: 3.7.1
+NumPy version: 1.24.2
+SciPy version: 1.10.1
+IPython version: 8.11.0
+scikit-learn version: 1.2.1
+-------------------------
+```
