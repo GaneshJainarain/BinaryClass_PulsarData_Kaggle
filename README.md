@@ -115,3 +115,44 @@ sns.set_style('white')
 pylab.rcParams['figure.figsize'] = 12,8
 
 ```
+
+#### `Meet and Greet Data`
+
+This is the meet and greet step. Get to know your data by first name and learn a little bit about it. What does it look like (datatype and values), what makes it tick (independent/feature variables(s)), what's its goals in life (dependent/target variable(s)). Think of it like a first date, 
+
+Our Data
+
+    17898 entries
+
+    Data can be useful for prediction models of classification.
+
+    COLUMNS:
+    Based on Integrated Profile of Observation
+
+    Mean_Integrated: Mean of Observations
+
+    SD: Standard deviation of Observations
+
+    EK: Excess kurtosis of Observations
+
+    Skewness: In probability theory and statistics, skewness is a measure of the asymmetry of the probability distribution of a real-valued random variable about its mean. Skewness of Observations.
+
+    Mean _ DMSNR _ Curve: Mean of DM SNR CURVE of Observations
+
+    SD _ DMSNR _ Curve: Standard deviation of DM SNR CURVE of Observations
+
+    EK _ DMSNR _ Curve: Excess kurtosis of DM SNR CURVE of Observations
+
+    Skewness _ DMSNR _ Curve: Skewness of DM SNR CURVE of Observations
+
+    Class: Class 0 - 1
+
+    WHAT IS DM SNR CURVE:
+
+    Radio waves emitted from pulsars reach earth after traveling long distances in space which is filled with free electrons. The important point is that pulsars emit a wide range of frequencies, and the amount by which the electrons slow down the wave depends on the frequency. Waves with higher frequency are sowed down less as compared to waves with higher frequency. It means dispersion.
+
+    TARGET:
+
+    Class
+    0 -- It is not
+    1 -- It is
