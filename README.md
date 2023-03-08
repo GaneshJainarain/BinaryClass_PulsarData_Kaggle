@@ -158,3 +158,39 @@ Waves with higher frequency are sowed down less as compared to waves with higher
 `Class`
    - 0 -- It is not
    - 1 -- It is
+
+#### `Train/Test`
+
+```python
+
+data_raw = pd.read_csv('../input/train.csv')
+
+#a dataset should be broken into 3 splits: train, test, and (final) validation
+#the test file provided is the validation file for competition submission
+#we will split the train set into train and test data in future sections
+data_val  = pd.read_csv('../input/test.csv')
+
+```
+
+```python
+
+#to play with our data we'll create a copy
+#remember python assignment or equal passes by reference vs values, so we use the copy function: https://stackoverflow.com/questions/46327494/python-pandas-dataframe-copydeep-false-vs-copydeep-true-vs
+
+data1 = data_raw.copy(deep = True)
+
+#however passing by reference is convenient, because we can clean both datasets at once
+data_cleaner = [data1, data_val]
+
+
+#preview data
+
+print (data_raw.info()) #https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.info.html
+#data_raw.head() #https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.head.html
+#data_raw.tail() #https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.tail.html
+
+print(data_raw.sample(10)) 
+
+#https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.sample.html
+
+```
