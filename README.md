@@ -194,3 +194,25 @@ print(data_raw.sample(10))
 #https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.sample.html
 
 ```
+```
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 117564 entries, 0 to 117563
+Data columns (total 10 columns):
+ #   Column                Non-Null Count   Dtype  
+---  ------                --------------   -----  
+ 0   id                    117564 non-null  int64  
+ 1   Mean_Integrated       117564 non-null  float64
+ 2   SD                    117564 non-null  float64
+ 3   EK                    117564 non-null  float64
+ 4   Skewness              117564 non-null  float64
+ 5   Mean_DMSNR_Curve      117564 non-null  float64
+ 6   SD_DMSNR_Curve        117564 non-null  float64
+ 7   EK_DMSNR_Curve        117564 non-null  float64
+ 8   Skewness_DMSNR_Curve  117564 non-null  float64
+ 9   Class                 117564 non-null  int64  
+dtypes: float64(8), int64(2)
+memory usage: 9.0 MB
+None
+
+
+```
